@@ -3,11 +3,13 @@ abstract: 'Generate HTML representations of Code 128 barcodes'
 author:
   - 'Mark A. Stratman, C<< <stratman@gmail.com> >>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
+  Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -23,10 +25,6 @@ requires:
   Barcode::Code128: 2.01
   HTML::Barcode: 0.09
 resources:
-  homepage: http://github.com/mstratman/HTML-Barcode-Code128/tree
   license: http://dev.perl.org/licenses/
-  repository:
-    type: git
-    url: git://github.com/mstratman/HTML-Barcode-Code128.git
-    web: http://github.com/mstratman/HTML-Barcode-Code128/tree
-version: 0.10
+  repository: git://github.com/mstratman/HTML-Barcode-Code128.git
+version: 0.11

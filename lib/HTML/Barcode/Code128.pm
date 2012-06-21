@@ -3,7 +3,7 @@ use Any::Moose;
 extends 'HTML::Barcode::1D';
 use Barcode::Code128;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 has '_code128' => (
     is      => 'ro',
@@ -32,7 +32,7 @@ L<Barcode::Code128> is required by this class, so please install it first.
 
 =head1 DESCRIPTION
 
-This class allows you easily create HTML representations of Code 128 barcodes.
+This class allows you to easily create HTML representations of Code 128 barcodes.
 
 =begin html
 
